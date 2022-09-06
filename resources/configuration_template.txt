@@ -1,0 +1,71 @@
+{
+    "author": "Automation",
+    "description": "Automatically created via python script.",
+    "deviceTypes": [
+        {
+            "productFamily": "Switches and Hubs"
+        }
+],
+    "failurePolicy": "ABORT_ON_ERROR",
+    "language": "JINJA",
+    "name": "string",
+    "softwareType": "IOS-XE",
+    "templateContent": "string",
+    "templateParams": [
+        {
+            "dataType": "STRING",
+            "parameterName": "identifier",
+            "required": "true"
+        },
+        {
+            "dataType": "STRING",
+            "parameterName": "civicType",
+            "required": "true"
+        },
+        {
+            "dataType": "STRING",
+            "parameterName": "building",
+            "required": "true"
+        },
+        {
+            "dataType": "STRING",
+            "parameterName": "city",
+            "required": "true"
+        },
+        {
+            "dataType": "STRING",
+            "parameterName": "country",
+            "required": "true"
+        },
+        {
+            "dataType": "STRING",
+            "parameterName": "county",
+            "required": "true"
+        },
+        {
+            "dataType": "STRING",
+            "parameterName": "road",
+            "required": "true"
+        },
+        {
+            "dataType": "STRING",
+            "parameterName": "room",
+            "required": "true"
+        },
+        {
+            "dataType": "STRING",
+            "parameterName": "state",
+            "required": "true"
+        },
+        {
+            "dataType": "STRING",
+            "parameterName": "number",
+            "required": "false"
+        },
+        {
+            "dataType": "STRING",
+            "parameterName": "interface",
+            "required": "false"
+        }
+    ]
+}

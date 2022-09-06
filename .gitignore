@@ -1,0 +1,5 @@
+.gitignore/source/config.ini
+/resources/config.ini
+/resources/~masterFrame.xlsx
+/resources/masterFrame.xlsx
+/demo/
